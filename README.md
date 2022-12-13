@@ -2,7 +2,7 @@
 
 This repository contains files used in the MA705 dashboard project.
 
-The final dashboard is deployed on Heroku [here](https://fall2022_ma705.herokuapp.com).
+The final dashboard is deployed on Heroku [here](https://university_dash.herokuapp.com).
 
 ## Dashboard Description
 This dashboard allows a user to search for artist name, painting title, or keywords within to find paintings currently on display at three Boston area museums: Harvard Art Museum, the Isabella Stewart Gardener Museum, and the Museum of Fine Arts Boston. The top artists represented at these museums are graphically displayed to give users an idea of what they can expect to see at these museums, and to offer suggestions of artists to look into. The chart below contains all of the artists, painting titles, museum where the work is located, and a URL to view details of the artwork.
