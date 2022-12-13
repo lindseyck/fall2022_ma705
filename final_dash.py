@@ -27,6 +27,7 @@ app = dash.Dash(__name__, external_stylesheets=stylesheet)
 server = app.server
 
 df = pd.read_csv('artwork.csv')
+dt_df = pd.read_csv('dt_df.csv')
 
 #Counts by museum
 paint_count = df.groupby('data_source', as_index=False).size()
@@ -58,7 +59,6 @@ division = pd.DataFrame(df.division.value_counts()).reset_index()
 
 
 #Create df for data table
-dt_df = pd.read_csv('dt_df.csv')
 #dt_df = df[['artist', 'title', 'data_source', 'url']].drop_duplicates()
 #dt_df.to_csv('dt_df.csv')
 dt_df = dt_df.iloc[4:]
