@@ -1,1 +1,1 @@
-web: gunicorn final_dash:server
+web: gunicorn boston_universities:server
