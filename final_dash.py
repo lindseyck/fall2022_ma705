@@ -190,7 +190,7 @@ fig_div.update_layout(
 
 #Dash layout
 app.layout = html.Div(style={'backgroundColor': colors['background']}, children=[
-    html.H1('Boston Area Art Museums: Current Paintings on View', 
+    html.H1('Boston Area Art Museums: Paintings Currently on View', 
             style={'textAlign': 'center', 'color': colors['text'], 'font-weight': 'bold', 'font-family': 'Perpetua'}),
     html.Div(children='''
         MA705 Individual Project | Fall 2022 | Lindsey Kosinski | Published December 13th, 2022''',
